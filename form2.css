@@ -1,0 +1,65 @@
+body { 
+    text-align: center; /*mengatur posisi teks*/
+    font-family:'Poppins', Arial, sans-serif; /* mengatur jenis font*/
+    padding-top: 50px; /*mengatur jarak bagian atas form*/
+    background-image: url(images.jpg); /*menambahkan background*/
+    background-size: 100% 145%; /*mengatur ukuran background*/
+} 
+.atas{
+    max-width: 288px; /*mengatur lebar maksimum kotak form*/
+    margin: 30px auto; /*mengatur panjang background*/
+    padding: 25px; /*Untuk mengatur jarak content dengan kotak form*/
+    backdrop-filter: blur(10px); /*menerapkan efek blur pada kotak form*/
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /*untuk menambahkan bayangan pada kotak form*/
+    border-radius: 9px;/*membuat sudut kotak form menjadi melengkung*/
+}
+.input{
+    margin-bottom: 5px; /*memberikan jarak di bagian bawah content*/
+    color: #c8d6e5; /*mengatur warna teks*/
+    text-align: center;/*mengatur posisi teks*/
+}
+.input2{ 
+    display: block; /*mengubah label menjadi blok, sehingga menempati baris baru*/
+    font-weight: bold; /*mengatur ketebalan teks*/
+}
+
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%; /*mengatur lebar input atau textarea*/
+    padding: 10px; /*memberikan jarak teks dengan textarea*/
+    border: 1px solid #ccc; /*mengatur border dan ketebalan tertentu*/
+    border-radius: 5px; /*memberikan sudut melengkung pada input*/
+    box-sizing: border-box; /*memperhitungkan border dan padding dalam perhititungan lebarq*/
+}
+.tahu {
+    display: flex; /*mengatur tata letak content*/
+    width: 100%; /*mengatur lebar teks*/
+    padding-bottom: 5px; /*mengatur jarak antar content dibagian bawah*/
+    font-size: 15px; /*mengatur ukuran teks*/
+    color: hsl(180, 3%, 6%); /*mengatur warna teks*/
+    align-items: center; /*mengatur posisi content*/
+    font-family: 'Poppins', sans-serif; /*mengatur jenis font*/
+}
+button {
+    width: 100%; /*mengatur lebar button*/
+    height: 45px; /*mengatur tinggi button*/
+    font-size: 20px; /*mengatur ukuran teks*/
+    background-color: #ad9a77; /*memberi warna pada button*/
+    color: #fff; /*memberi warna teks*/
+    font-weight: bold; /*meberikan efek tebal pada teks button*/
+    border: none; /*memberikan efek button*/
+    border-radius: 5px; /*membuat sudut kotak login menjadi melengkung*/
+    cursor: progress; /*memberikan efek ketika loading*/
+    font-family: 'Poppins', Arial, sans-serif; /*mengatur jenis font*/
+}
+
+button:hover {
+    background-color: #0f634a; /*mengatur warna tombol, ketika kursor diarahkan ke tombol*/
+}
+.regis {
+    color: #0b0b0b; /*memberi warna pada text*/
+    text-decoration: none; /*memberikan efek pada teks*/
+}
+
+    
